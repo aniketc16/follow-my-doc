@@ -9,13 +9,13 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <main className="max-w-4xl mx-auto px-8 py-16">
         {/* Title */}
-        <h1 className="text-6xl font-bold text-center mb-16 text-foreground">
+        <h1 className="text-6xl font-light text-center mb-16 text-foreground">
           Trends in AI progress
         </h1>
 
         {/* Introduction */}
         <section className="mb-16">
-          <p className="text-xl text-foreground leading-relaxed">
+          <p className="text-xl text-foreground leading-relaxed font-light">
             In the 3 years since ChatGPT released, the capability and use of AI models has exploded. The question now is, what comes next?
           </p>
         </section>
@@ -41,7 +41,7 @@ const Index = () => {
 
         {/* Text about frontier models */}
         <section className="mb-16">
-          <p className="text-xl text-foreground leading-relaxed">
+          <p className="text-xl text-foreground leading-relaxed font-light">
             Frontier models are now able to reach human expert performance in mathematics and coding. Along with this increase in capability, we have seen an explosion in the use of chat models.
           </p>
         </section>
@@ -64,7 +64,7 @@ const Index = () => {
 
         {/* Drivers of explosion */}
         <section className="mb-16">
-          <p className="text-xl text-foreground leading-relaxed">
+          <p className="text-xl text-foreground leading-relaxed font-light">
             This improvement has been driven by an increase in the computing power used to train models, as well as breakthroughs in AI research that has made the allocation of this compute more efficient. A big step here was the discovery of 'scaling laws' - empirical relationships demonstrating that model capability scales with compute.
           </p>
         </section>
@@ -103,7 +103,7 @@ const Index = () => {
 
         {/* Uncertain Future */}
         <section className="mb-16">
-          <p className="text-xl text-foreground leading-relaxed">
+          <p className="text-xl text-foreground leading-relaxed font-light">
             The future remains uncertain. We only have limited evidence of how LLMs using transformer architecture will continue to grow. AI development until now has been characterised by phases of explosive growth, followed by periods of slow progress known as 'AI Winters'. Will that prove true in this case too, if it turns out that current model architectures are unable to produce models that excel at the kind of long term messy tasks that are most useful in the real world? Or will the exponential trends that we have seen thus far continue? Only time will tell.
           </p>
         </section>
