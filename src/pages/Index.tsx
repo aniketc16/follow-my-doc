@@ -1,3 +1,9 @@
+import aiBenchmarks from "@/assets/ai-benchmarks.jpg";
+import organizationsAi from "@/assets/organizations-ai.jpg";
+import computeGrowth from "@/assets/compute-growth.jpg";
+import algorithmicProgress from "@/assets/algorithmic-progress.jpg";
+import aiTrajectories from "@/assets/ai-trajectories.jpg";
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
@@ -23,7 +29,7 @@ const Index = () => {
             className="block"
           >
             <img 
-              src="/placeholder.svg" 
+              src={aiBenchmarks} 
               alt="Frontier performance across benchmarks"
               className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
             />
@@ -49,7 +55,7 @@ const Index = () => {
             className="block"
           >
             <img 
-              src="/placeholder.svg" 
+              src={organizationsAi} 
               alt="Organizations are increasingly using AI in multiple functions"
               className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
             />
@@ -72,7 +78,7 @@ const Index = () => {
             className="block"
           >
             <img 
-              src="/placeholder.svg" 
+              src={computeGrowth} 
               alt="Training compute growth"
               className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
             />
@@ -85,7 +91,7 @@ const Index = () => {
             className="block"
           >
             <img 
-              src="/placeholder.svg" 
+              src={algorithmicProgress} 
               alt="The relative contribution of compute and algorithmic breakthroughs to AI progress"
               className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
             />
@@ -111,7 +117,7 @@ const Index = () => {
             className="block"
           >
             <img 
-              src="/placeholder.svg" 
+              src={aiTrajectories} 
               alt="Different trajectories that are consistent with observed trends on AI growth"
               className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
             />
